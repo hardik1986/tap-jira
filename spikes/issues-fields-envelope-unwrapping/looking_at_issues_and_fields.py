@@ -12,7 +12,7 @@ REFRESH_TOKEN_EXPIRATION_PERIOD = 3500
 # The project plan for this tap specified:
 # > our past experience has shown that issuing queries no more than once every
 # > 10ms can help avoid performance issues
-TIME_BETWEEN_REQUESTS = timedelta(microseconds=10e3)
+TIME_BETWEEN_REQUESTS = timedelta(microseconds=30e3)
 REQUIRED_CONFIG_KEYS = ["start_date", "access_token"]
 
 
